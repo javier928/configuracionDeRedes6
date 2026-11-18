@@ -46,7 +46,7 @@ def crop_to_square():
             cropped_img.save(output_path)
             
             # Display the exact confirmation message requested (colored green)
-            print(f'{GREEN}file cropped. resulting file saved in folder ({cwd}) with filename "{output_filename}"{RESET}')
+            print(f'{GREEN}File cropped. Resulting file saved in folder ({cwd}) with filename "{output_filename}"{RESET}')
             
     except FileNotFoundError:
         print(f"Error: The file '{filename}' was not found in the current directory.")
